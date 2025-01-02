@@ -1,12 +1,12 @@
-# Java_TechnoStudyProjects
+# Techno Study Java Projects
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Platform](https://img.shields.io/badge/platform-JVM-blue?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/ChatGTHB/JavaPatikaProjects?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/ChatGTHB/JavaPatikaProjects?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/cihat-kose/techno-study-java-projects?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/cihat-kose/techno-study-java-projects?style=for-the-badge)
 
 ## 💡 Introduction
-Welcome to the Java_TechnoStudyProjects repository! This repository contains a collection of Java projects developed as part of the Techno Study program. The projects are designed to cover various aspects of Java programming, from basic concepts to more advanced implementations, offering a comprehensive learning experience.
+Welcome to the techno-study-java-projects repository! This repository contains a collection of Java projects developed as part of the Techno Study program. The projects are designed to cover various aspects of Java programming, from basic concepts to more advanced implementations, offering a comprehensive learning experience.
 
 ## Table of Contents
 - [💡 Introduction](#💡-introduction)
@@ -60,7 +60,7 @@ The repository is organized into various projects, each representing a specific 
 To get started with this repository, clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/ChatGTHB/Java_TechnoStudyProjects.git
+git clone https://github.com/cihat-kose/techno-study-java-projects.git
 ```
 
 Ensure that you have Java Development Kit (JDK) installed on your machine. You can download it [here](https://www.oracle.com/java/technologies/javase-downloads.html).
@@ -68,7 +68,7 @@ Ensure that you have Java Development Kit (JDK) installed on your machine. You c
 Alternatively, you can open the project directly in IntelliJ IDEA from Version Control:
 1. Open IntelliJ IDEA.
 2. Select `File` -> `New` -> `Project from Version Control`.
-3. In the dialog that appears, enter the URL of the repository: `https://github.com/ChatGTHB/Java_TechnoStudyProjects.git`.
+3. In the dialog that appears, enter the URL of the repository: `https://github.com/cihat-kose/techno-study-java-projects.git`.
 4. Click `Clone`.
 
 ## ⚙️ Usage
@@ -102,7 +102,7 @@ If you encounter any issues while working with the projects in this repository, 
 For further assistance, you can open an issue in the GitHub repository.
 
 ## 👥 Contributors
-- [ChatGTHB](https://github.com/ChatGTHB)
+- [cihat-kose](https://github.com/cihat-kose)
 
 ## 🤝 Contributing
 Contributions are welcome!
