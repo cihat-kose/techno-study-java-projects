@@ -113,4 +113,4 @@ Contributions are welcome!
 5. Create a Pull Request.
 
 ## 📜 License
-This project is licensed under the MIT License. See the [LICENSE](../../Downloads/LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
