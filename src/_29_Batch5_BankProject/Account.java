@@ -36,10 +36,10 @@ public class Account {
         return accountType;
     }
 
-    // PARA EKLE (DEPOSIT) METODU
-    // YATIRILACAK TUTARIN SIFIRDAN BÜYÜK OLMASI GEREKİR.
-    // ŞART SAĞLANDIĞINDA İLGİLİ HESABIN BAKİYESİ ARTMIŞ OLMALIDIR.
-    public void depositToAmount(double amount) {
+    // PARA EKLEME İŞLEMİ
+    // Yatırılacak tutar sıfırdan büyük olmalıdır. Şart sağlandığında
+    // ilgili hesabın bakiyesi belirtilen tutar kadar artar.
+    public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
             System.out.println(amount + " TL, hesabınıza başarıyla aktarıldı.");
@@ -49,10 +49,9 @@ public class Account {
         }
     }
 
-    //  PARA ÇEK (WITHDRAW) METODU
-    // ÇEKİLECEK TUTARIN SIFIRDAN BÜYÜK OLMASI GEREKİR.
-    // ŞART SAĞLANDIĞINDA İLGİLİ HESABIN BAKİYESİ TUTAR KADAR AZALMIŞ OLMALIDIR.
-    public void withdrawToAmount(double amount) {
+    // PARA ÇEKME İŞLEMİ
+    // Çekilecek tutar sıfırdan büyük ve bakiyeden az veya eşit olmalıdır.
+    public void withdraw(double amount) {
         if (amount > 0) {
             if (amount <= balance) {
                 balance -= amount;
