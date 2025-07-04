@@ -8,6 +8,9 @@
 ## 💡 Introduction
 Welcome to the techno-study-java-projects repository! This repository contains a collection of Java projects developed as part of the Techno Study program. The projects are designed to cover various aspects of Java programming, from basic concepts to more advanced implementations, offering a comprehensive learning experience.
 
+> **Note**
+> These projects are created for educational purposes and are not intended for production use.
+
 ## Table of Contents
 - [💡 Introduction](#💡-introduction)
 - [📂 Project Structure](#📂-project-structure)

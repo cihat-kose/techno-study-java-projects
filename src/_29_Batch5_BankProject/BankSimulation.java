@@ -169,10 +169,10 @@ public class BankSimulation {
                     listCustomerAccounts(customer);
                     break;
                 case 3:
-                    depositToAccount(customer);
+                    depositMoney(customer);
                     break;
                 case 4:
-                    withdrawToAccount(customer);
+                    withdrawMoney(customer);
                     break;
                 case 5:
                     checkBalance(customer);
@@ -223,7 +223,7 @@ public class BankSimulation {
     }
 
     // PARA EKLE ( deposit() ) METODU
-    public void depositToAccount(Customer customer) {
+    public void depositMoney(Customer customer) {
         System.out.println("\n----- PARA YATIR -----");
         System.out.print("Hesap Numarasını Girin: ");
         int accountId = scanner.nextInt();
@@ -234,14 +234,14 @@ public class BankSimulation {
             System.out.print("Yatırılacak Miktarı Girin: ");
             double amount = scanner.nextDouble();
             scanner.nextLine();
-            account.depositToAmount(amount);
+            account.deposit(amount);
         } else {
             System.out.println("Geçersiz Hesap Numarası veya hesap sizin değil! İşlem iptal edildi.");
         }
     }
 
     // PARA ÇEK ( withdraw() ) METODU
-    public void withdrawToAccount(Customer customer) {
+    public void withdrawMoney(Customer customer) {
         System.out.println("\n----- PARA ÇEK -----");
         System.out.print("Hesap Numarasını Girin: ");
         int accountId = scanner.nextInt();
@@ -252,7 +252,7 @@ public class BankSimulation {
             System.out.print("Çekilecek Miktarı Girin: ");
             double amount = scanner.nextDouble();
             scanner.nextLine();
-            account.withdrawToAmount(amount);
+            account.withdraw(amount);
         } else {
             System.out.println("Geçersiz Hesap Numarası veya hesap sizin değil! İşlem iptal edildi.");
         }
