@@ -8,7 +8,7 @@
 "hangiKahve" adında bir String oluşturun ve mevcut kahvelerden birini yazın (örneğin, Türk Kahvesi veya turk kahvesi). 
      Bu, case-insensitive (büyük-küçük harfe duyarsız) olması için bir String yöntemi kullanmalıdır.
 
-**TODO Koşul 1:**
+**Koşul 1:**
    - 
    - "kahve" adında bir String oluşturun.
    - Eğer seçilen kahve Türk Kahvesi ise, "Türk kahvesi hazırlanıyor..." yazdırın. (Düz "Türk kahvesi" yazmayın. String hangiKahve'yi çağırın!!)
@@ -16,7 +16,7 @@
    - Eğer Espresso ise, "Espresso hazırlanıyor..." yazdırın. (String hangiKahve'yi kullanın!!)
    - Yanlış bir harf girilirse, "Yanlış tuşlama. Lütfen tekrar deneyin." yazdırın. Not: Yanlış bir giriş yapılırsa, aynı soruyu tekrar sorun.
 
-**TODO Koşul 2:**
+**Koşul 2:**
    - 
    - Sistem şunu sormalıdır: "Süt eklememizi ister misiniz? (Evet veya Hayır olarak cevaplayınız):"
    - Parantezler dahil olmak üzere konsolda tam olarak bu şekilde görüntüleyin.
@@ -24,7 +24,7 @@
    - Eğer cevap "evet" e eşitse, "Süt ekleniyor..." konsolda görünecek. Case-sensitive olmaması için String yöntemini kullanın. Mümkün olan olasılıklar şunlardır: Evet, YES, YeS, YEs vb.
    - Eğer "hayır" ise, "Süt eklenmiyor." yazdırın. Not: Yanlış bir giriş yapılırsa, aynı soruyu tekrar sorun.
 
-**TODO Koşul 3:** 
+**Koşul 3:**
    - 
    - Sistem şunu sormalıdır:** "Şeker ister misiniz? (Evet veya Hayır olarak cevaplayınız):"
    - Parantezler dahil olmak üzere konsolda tam olarak bu şekilde görüntüleyin.
@@ -34,7 +34,7 @@
    - Eğer cevap "hayır" e eşitse, sistem "Şeker eklenmiyor." yazmalıdır. 
    - Not: Yanlış bir giriş yapılırsa, aynı soruyu tekrar sorun.
 
-**TODO Koşul 4:**
+**Koşul 4:**
    - 
    - Sistem şunu sormalıdır:** "Hangi boyutta istersiniz? (Büyük - Orta - Küçük olarak giriniz.) : "
    - (Büyük veya buyuk gibi) case sensitivity olmamalıdır.
