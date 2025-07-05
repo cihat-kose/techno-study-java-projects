@@ -203,7 +203,7 @@ public class Project_03 {
         }
     }
 
-    // TODO - Asagidaki 3 methodun return tipini ve icerigini tanimlayin ki yukarida olmasi gerektigi gibi sonuc versinler...
+    // Bu bölümdeki üç methodun geriye dönüş tipleri ve içerikleri tanımlanmıştır.
 
     public static Customer confirmUsernameAndPassword(List<Customer> users, String username, String password) {
 

@@ -115,5 +115,9 @@ Contributions are welcome!
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a Pull Request.
 
+## 🔍 Current Status
+All projects compile with JDK 8 or higher. Development is complete and the repository is provided solely for educational reference. Some examples may not reflect production-ready best practices.
+
+
 ## 📜 License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.

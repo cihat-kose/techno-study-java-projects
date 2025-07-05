@@ -6,7 +6,7 @@ public class KahveMakinesi {
     public static void main(String[] args) {
         Scanner scannerStr = new Scanner(System.in);
         Scanner scannerInt = new Scanner(System.in);
-        // TODO 1. Koşul Bölümü
+        // 1. Koşul Bölümü
         String hangiKahve = "";
 
         System.out.println("Techno Cafe'ye Hoş Geldiniz");
@@ -32,7 +32,7 @@ public class KahveMakinesi {
 
         System.out.println(hangiKahve + " hazırlanıyor...");
 
-        // TODO 2. Koşul Bölümü
+        // 2. Koşul Bölümü
         while (true) {
             System.out.print("Süt eklememizi ister misiniz ? (Evet veya Hayır olarak cevaplayınız): ");
             String süt = scannerStr.nextLine();
@@ -48,7 +48,7 @@ public class KahveMakinesi {
             }
         }
 
-        // TODO 3. Koşul Bölümü
+        // 3. Koşul Bölümü
         while (true) {
             System.out.print("Şeker ister misiniz ? (Evet veya Hayır olarak cevaplayınız): ");
             String şeker = scannerStr.nextLine();
@@ -66,7 +66,7 @@ public class KahveMakinesi {
             }
         }
 
-        // TODO 4. Koşul Bölümü
+        // 4. Koşul Bölümü
         String boyut = "";
 
         while (true) {
